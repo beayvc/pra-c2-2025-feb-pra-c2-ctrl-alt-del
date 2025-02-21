@@ -568,7 +568,7 @@ pre code {
     }
 }
 .row {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
@@ -4406,7 +4406,9 @@ input[type=button].btn-block {
 .card-header:first-child {
     border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
-
+footer {
+    background-color: #e8ecef;
+}
 .card-footer {
     padding: 0.75rem 1.25rem;
     background-color: rgba(0, 0, 0, 0.03);
