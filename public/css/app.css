@@ -540,9 +540,7 @@ pre code {
 .container-lg,
 .container-md,
 .container-sm {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -571,10 +569,11 @@ pre code {
     }
 }
 .row {
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+    justify-content: center;
 }
 
 .no-gutters {
